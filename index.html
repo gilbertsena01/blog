@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
@@ -19,7 +18,8 @@
       text-align: center;
     }
     header img {
-      width: 90px;
+      /* Logo aumentada */
+      width: 250px;
       margin-bottom: 1rem;
     }
     header h1 {
@@ -52,15 +52,29 @@
       padding: 1.5rem;
       margin-bottom: 2rem;
       box-shadow: 0 4px 8px rgba(0,0,0,0.05);
+      text-align: left;
+    }
+    article img {
+      /* Miniatura reduzida */
+      width: 150px;
+      border-radius: 6px;
+      float: right;
+      margin: 0 0 1rem 1rem;
     }
     article h2 {
       margin-top: 0;
       color: #2c3e50;
+      font-size: 1.5rem;
     }
     article .date {
       color: #999;
       font-size: 0.9rem;
       margin-bottom: 1rem;
+    }
+    article p {
+      text-align: justify;
+      font-size: 1rem;
+      line-height: 1.6;
     }
     .btn {
       display: inline-block;
@@ -77,12 +91,13 @@
       color: #f0f0f0;
       padding: 1rem;
       margin-top: 4rem;
+      font-size: 0.9rem;
     }
   </style>
 </head>
 <body>
   <header>
-    <img src="logo.png" alt="Logo do blog" style="width:220px;" />
+    <img src="logo.png" alt="Logo do blog">
     <h1>Registros do Prof. Gilbert Sena</h1>
     <p>Textos e reflexões sobre o mundo contemporâneo.</p>
   </header>
@@ -94,7 +109,7 @@
 
   <div class="content" id="inicio">
     <article>
-<img src="trump_tarifss.png" alt="Miniatura Trump" style="width:100%;max-width:700px;border-radius:6px;margin-bottom:1rem;">
+      <img src="trump_tarifss.png" alt="Miniatura Trump Tarifas">
       <h2>A Batalha Tarifária de Trump contra o Brasil</h2>
       <div class="date">11 de julho de 2025</div>
       <p>
@@ -107,12 +122,16 @@
   <div class="content" id="sobre">
     <article>
       <h2>Sobre o autor</h2>
-      <p>Sou Gilbert Sena, professor de Direito com mais de quinze anos de sala, pai do João e esposo da Inês. Este é um espaço de partilha e construção intelectual desenvolvido para alunos(as), amigos(as) e interessados(as) em temas variados.</p>
+      <p>
+        Sou Gilbert Sena, professor de Direito com mais de quinze anos de sala, pai do João e esposo da Inês. Este é um espaço de partilha e construção intelectual desenvolvido para alunos(as), amigos(as) e interessados(as) em temas variados.
+      </p>
     </article>
   </div>
 
   <footer>
-    Criado por Gilbert Sena • Hospedado no GitHub Pages<br>Contato: <a href='mailto:registrosdoprofgilbertsena@gmail.com'>registrosdoprofgilbertsena@gmail.com</a>
+    Criado por Gilbert Sena • Hospedado no GitHub Pages
+    <br>
+    Contato: <a href="mailto:registrosdoprofgilbertsena@gmail.com" style="color:#f0f0f0;">registrosdoprofgilbertsena@gmail.com</a>
   </footer>
 </body>
 </html>
